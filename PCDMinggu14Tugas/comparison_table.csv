@@ -1,0 +1,6 @@
+Model,Test Acc,F1 (macro),Precision,Recall,Train Time (s),Inference (ms),Params (M)
+CNN_Adam_Aug,0.3333,0.1778,0.1250,0.3333,12.1,6.19,0.13
+CNN_SGD_Aug,0.3333,0.1794,0.1272,0.3333,11.3,6.50,0.13
+CNN_NoAug,0.1667,0.0476,0.0278,0.1667,9.8,10.67,0.13
+TL_FeatureExtract,0.1667,0.0476,0.0278,0.1667,17.6,10.67,0.32
+TL_FineTuning,0.1667,0.0476,0.0278,0.1667,9.9,6.29,0.05
